@@ -12,9 +12,9 @@ namespace VariousTypes
             Console.OutputEncoding = Encoding.UTF8;
 
             //Declaring simple Literals variables and it's values//
-            double x    = 3.1415;
-            float y     = 3.1415f;
-            decimal z   = 3.1415m;
+            double x    = 2.9;
+            float y     = 1.48f;
+            decimal z   = 9.8m;
             int i       = 3;
             uint j      = 3U;
             long k      = 3L;
@@ -24,8 +24,8 @@ namespace VariousTypes
             int c       = 0b10110110;
             int d       = 0b1011_0110;
             int e       = 0xFF_2B_4A;
-            double f    = 1_712_432.23;
-            double g    = 5.0e-10;
+            double f    = 8_746_4822.23;
+            double g    = 7.6e-10;
 
             char blackUpPointingTriangle = '\u25B2';
             char pointingUpIndex = '\u261D';
