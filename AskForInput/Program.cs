@@ -19,6 +19,13 @@ namespace AskForInput
             //Input of a new number
             Console.WriteLine("Please summit a real number");
             string input2 = Console.ReadLine();
+            
+            //Save the input in to a float
+            float f = float.Parse(input2);
+
+            //Give the result
+            var result = 1 + f;
+            Console.WriteLine($"Here's the result = {result}");
         }
     }
 }
