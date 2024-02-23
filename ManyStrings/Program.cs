@@ -19,8 +19,8 @@ namespace ManyStrings
             string c = "ah, e aquilo era so uma seta para cima tambem";
             string d = "Eu vou naquela " + u + " direção";
             string e = $"o valor de x é {x}";
-            string f = $"xx = {xx,2:f}";
-            string g = $"xx = {xx,1:p}";
+            string f = $"xx = {xx:f2}";
+            string g = $"xx = {xx:p1}";
             string h = $"ii = {ii:x}";
             string i = $"ii = {ii:c}";
 
