@@ -21,6 +21,8 @@ namespace ManyStrings
             string e = $"o valor de x é {x}";
             string f = $"xx = {xx,2:f}";
             string g = $"xx = {xx,1:p}";
+            string h = $"ii = {ii:x}";
+            string i = $"ii = {ii:c}";
 
             //Print of content
             Console.WriteLine(a);
@@ -30,6 +32,8 @@ namespace ManyStrings
             Console.WriteLine(e);
             Console.WriteLine(f);
             Console.WriteLine(g);
+            Console.WriteLine(h);
+            Console.WriteLine(i);
         }
     }
 }
