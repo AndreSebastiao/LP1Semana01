@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace VariousTypes
 {
@@ -8,6 +9,8 @@ namespace VariousTypes
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+
             //Declaring simple Literals variables and it's values//
             double x    = 3.1415;
             float y     = 3.1415f;
@@ -24,6 +27,10 @@ namespace VariousTypes
             double f    = 1_712_432.23;
             double g    = 5.0e-10;
 
+            char blackUpPointingTriangle = '\u25B2';
+            char pointingUpIndex = '\u261D';
+            char copyrightSymbol = '\u00A9';
+
             //Print values from the variables//
             Console.WriteLine(x);
             Console.WriteLine(y);
@@ -39,6 +46,9 @@ namespace VariousTypes
             Console.WriteLine(e);
             Console.WriteLine(f);
             Console.WriteLine(g);
+            Console.WriteLine(copyrightSymbol);
+            Console.WriteLine(blackUpPointingTriangle);
+            Console.WriteLine(pointingUpIndex);
         }
     }
 }
