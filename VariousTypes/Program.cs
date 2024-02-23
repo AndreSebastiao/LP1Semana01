@@ -11,7 +11,7 @@ namespace VariousTypes
         {
             Console.OutputEncoding = Encoding.UTF8;
 
-            //Declaring simple Literals variables and it's values//
+            //Declaring simple Literals variables and it's values
             double x    = 2.9;
             float y     = 1.48f;
             decimal z   = 9.8m;
@@ -27,11 +27,16 @@ namespace VariousTypes
             double f    = 8_746_4822.23;
             double g    = 7.6e-10;
 
+            //Declaring Unicode variables
             char blackUpPointingTriangle = '\u25B2';
             char pointingUpIndex = '\u261D';
             char copyrightSymbol = '\u00A9';
 
-            //Print values from the variables//
+            //Declaring Bools
+            bool start = true;
+            bool check = 4>7;
+
+            //Print values from the variables
             Console.WriteLine(x);
             Console.WriteLine(y);
             Console.WriteLine(z);
@@ -49,6 +54,8 @@ namespace VariousTypes
             Console.WriteLine(copyrightSymbol);
             Console.WriteLine(blackUpPointingTriangle);
             Console.WriteLine(pointingUpIndex);
+            Console.WriteLine(start);
+            Console.WriteLine(check);
         }
     }
 }
