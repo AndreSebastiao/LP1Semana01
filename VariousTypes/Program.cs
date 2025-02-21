@@ -6,7 +6,8 @@ namespace VariousTypes
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            int i = 1;
+            Console.WriteLine(i);
         }
     }
 }
