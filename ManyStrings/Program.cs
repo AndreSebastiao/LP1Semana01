@@ -6,7 +6,7 @@ namespace ManyStrings
     {
         private static void Main(string[] args)
         {
-            string s ="Um tab\t e um copyright\u03A9";
+            string s ="Um tab\t e um copyright\u03A9" + 2;
             string t ="Isto é um teste";
 
             Console.WriteLine(s);
