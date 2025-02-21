@@ -8,6 +8,9 @@ namespace VariousTypes
         {
             int i = 1;
             Console.WriteLine(i);
+
+            char arrow = '\u2192';
+            Console.WriteLine(arrow);
         }
     }
 }
