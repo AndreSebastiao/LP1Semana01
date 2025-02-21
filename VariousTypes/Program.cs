@@ -13,7 +13,10 @@ namespace VariousTypes
             Console.WriteLine(arrow);
 
             float y = 3.145f;
-            Console.WriteLine(y);
+            Console.WriteLine(y);´
+
+            bool idk = false;
+            Console.WriteLine(idk);
         }
     }
 }
