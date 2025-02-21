@@ -6,7 +6,11 @@ namespace ManyStrings
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            string s ="Um tab\t e um copyright\u03A9";
+            string t ="Isto é um teste";
+
+            Console.WriteLine(s);
+            Console.WriteLine(t);
         }
     }
 }
