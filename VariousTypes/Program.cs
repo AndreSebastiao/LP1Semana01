@@ -11,6 +11,9 @@ namespace VariousTypes
 
             char arrow = '\u2192';
             Console.WriteLine(arrow);
+
+            float y = 3.145f;
+            Console.WriteLine(y);
         }
     }
 }
